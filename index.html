@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navigation">
+        <div class="title">
+          <a href="./index.html"
+            ><span class="s1">THE</span><a href="" class="s2">NORTHPOLE</a></a
+          >
+        </div>
+        <div class="nav-d2">
+          <div class="menu">
+            <ul class="ul1">
+              <li class="dropdown">
+                <button><a href="./Routes/Shop/shop.html">SHOP</a></button>
+                <div class="content">
+                  <a href="./Routes/Shop/shop.html">BACKSPACKS</a>
+                  <a href="./Routes/Shop/Duffle bags/dufflebags.html"
+                    >DUFFLE BAGS</a
+                  >
+                  <a href="./Routes/Shop/Travel Packs/Travel.html">TRAVEL BAGS</a>
+                  <a href="./Routes/Gift/gift.html">GIFT CARDS</a>
+                </div>
+              </li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="./Routes/Groups/groups.html">GROUPS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="search">
+            <input type="search" name="" id="" placeholder="SEARCH..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="login-in">
+            <i class="fa-solid fa-circle-user"></i>
+            <button class="btnLogin-popup">Log in</button>
+          </div>
+          <div class="basket">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <a href="">0</a>
+          </div>
+        </div>
+      </div>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- burger menu -->
+    <div class="off-screen-menu">
+      <div class="nav-d2">
+        <div class="menu">
+          <ul class="ul1">
+            <li class="dropdown">
+              <button><a href="./Routes/Shop/shop.html">SHOP</a></button>
+              <div class="content">
+                <a href="./Routes/Shop/shop.html">BACKSPACKS</a>
+                <a href="./Routes/Shop/Duffle bags/dufflebags.html"
+                  >DUFFLE BAGS</a
+                >
+                <a href="./Routes/Shop/Travel Packs/Travel.html">TRAVEL BAGS</a>
+                <a href="./Routes/Gift/gift.html">GIFT CARDS</a>
+              </div>
+            </li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="./Routes/Groups/groups.html">GROUPS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <input type="search" name="" id="" placeholder="SEARCH..." />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- <div class="login-in">
+          <i class="fa-solid fa-circle-user"></i>
+          <button class="btnLogin-popup">Log in</button>
+        </div> -->
+        <div class="basket">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <a href="">0</a>
+        </div>
+      </div>
+    </div>
+    <!-- sec1 -->
+    <section class="sec1">
+      <div class="plantitle">
+        <p class="plan">PLAN YOUR ADVENTURE</p>
+        <a href="./Routes/Shop/shop.html"><button class="shopn">SHOP NOW</button></a>
+      </div>
+      <!-- registration -->
+      <section class="reg-section" id="panel">
+        <div class="wrapper">
+          <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+          </span>
+          <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon">
+                  <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" name="" required />
+                <label for="email">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon">
+                  <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" name="" required />
+                <label for="password">Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label for="">
+                  <input type="checkbox" name="" />
+                  Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
+              </div>
+              <button type="submit" class="btn">Login</button>
+              <div class="login-register">
+                <p>
+                  Don't have an account?
+                  <a href="#" class="registered-link"> Register </a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <!-- register -->
+          <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon">
+                  <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" name="" required />
+                <label for="email">Username</label>
+              </div>
+              <div class="input-box">
+                <span class="icon">
+                  <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" name="" required />
+                <label for="email">Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon">
+                  <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" name="" required />
+                <label for="password">Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label for="">
+                  <input type="checkbox" name="" />
+                  I agree to the terms & Conditions
+                </label>
+              </div>
+              <button type="submit" class="btn">Register</button>
+              <div class="login-register">
+                <p>
+                  Alread have an account?
+                  <a href="#" class="login-link"> Login </a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- sec2 -->
+    <section class="sec2">
+      <div class="img1">
+        <p>NEW ARRIVALS</p>
+        <a href="./Routes/Shop/New Arrivals/newarrival.html"><button class="shop-now">SHOP NOW</button></a>
+      </div>
+      <div class="img2"></div>
+    </section>
+    <!-- sec3 -->
+    <section class="sec3">
+      <div class="b1">
+        <img src="./Photos/Screenshot 2024-06-21 134607.png" alt="" />
+      </div>
+      <div class="b2">
+        <img src="./Photos/1.png" alt="" />
+      </div>
+      <div class="b3">
+        <img src="./Photos/Screenshot 2024-06-21 134816.png" alt="" />
+      </div>
+    </section>
+    <!-- sec4 -->
+    <section class="sec4">
+      <div class="now">
+        <p>NOW ON SALE</p>
+        <p>UP TO 50% OFF</p>
+      </div>
+      
+        <div class="bags">
+          <a href="./Routes/Product/prod.html">
+          <div class="bag1">
+            <div class="bag-image1"></div>
+            <div class="c">
+              <p>CANVAS BACKPACK</p>
+              <div class="line"></div>
+              <p>
+                <span>$75.00</span>
+                <span>$67.50</span>
+              </p>
+            </div>
+          </div>
+      </a>
+        <a href="./Routes/Product/prod.html">
+          <div class="bag1">
+            <div class="bag-image2"></div>
+            <div class="c">
+              <p>CANVAS BACKPACK</p>
+              <div class="line"></div>
+              <p>
+                <span>$75.00</span>
+                <span>$67.50</span>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="./Routes/Product/prod.html">
+          <div class="bag1">
+            <div class="bag-image3"></div>
+            <div class="c">
+              <p>CANVAS BACKPACK</p>
+              <div class="line"></div>
+              <p>
+                <span>$75.00</span>
+                <span id="about">$67.50</span>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- sec5 -->
+    <section class="sec5" >
+      <div class="banner">
+        <div class="onehalf">
+          <div class="o1">
+            <p class="as">ABOUT US</p>
+            <p>
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+          </div>
+        </div>
+        <div class="second-half" ></div>
+      </div>
+    </section>
+    <!-- sec6 -->
+    <section class="sec6" id="contact">
+      <form action="">
+        <div class="fullname">
+          <div class="fname">
+            <label for="text">First Name *</label>
+            <input type="text" name="" id="" />
+          </div>
+          <div class="lname">
+            <label for="text">Last Name *</label>
+            <input type="text" name="" />
+          </div>
+        </div>
+        <div class="email">
+          <label for="email">Enter Your Email *</label>
+          <input type="email" name="" />
+        </div>
+        <div class="subject">
+          <label for="text">Enter Your Subject *</label>
+          <input type="text" name="" />
+        </div>
+        <div class="message">
+          <label for="">Enter Your Message</label>
+          <textarea name=""></textarea>
+        </div>
+        <div class="send">
+          <button>Send</button>
+        </div>
+      </form>
+      <div class="contact">
+        <div class="c">
+          <p>CONTACT</p>
+        </div>
+        <div class="p">
+          <p>
+            I'm a paragraph. Click here to add your own text and edit me. I’m a
+            great place for you to tell a story and let your users know a little
+            more about you.
+          </p>
+        </div>
+        <div class="t">
+          <p>info@my-domain.com</p>
+          <p>Tel: 1-800-000-0000</p>
+        </div>
+      </div>
+    </section>
+    <!-- sec7 -->
+    <section class="sec7">
+      <div class="join">
+        <p>JOIN OUR MAILING LIST</p>
+        <p>AND NEVER MISS AN UPDATE</p>
+      </div>
+      <div class="subscribe">
+        <p>Enter Your email here *</p>
+        <input type="email" placeholder="Email" />
+        <button type="submit">SUBSCRIBE NOW</button>
+      </div>
+    </section>
+    <footer>
+      <div class="first">
+        <span>
+          © 2035 by NORTHPOLE. Powered and secured by&nbsp;
+          <span
+            ><a href="https://www.wix.com/?utm_campaign=vir_created_with/"
+              >Wix</a
+            ></span
+          ></span
+        >
+      </div>
+      <div class="second">
+        <ul>
+          <li><a href="./Routes/FAQ/index.html">FAQ</a></li>
+        </ul>
+        <ul>
+          <li><a href="./Routes/Groups/groups.html">Groups</a></li>
+        </ul>
+        <ul>
+          <li><a href="./Routes/Shipping/index.html">Shipping & Returns</a></li>
+        </ul>
+        <ul>
+          <li><a href="./Routes/terms/index.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="social1">
+      <a href="https://www.facebook.com/wix">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://www.youtube.com/user/Wix">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://www.youtube.com/user/Wix">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    <div class="txtMessage"><i class="fa-solid fa-message"></i></div>
+
+    <!-- icon scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
